@@ -3,11 +3,18 @@
 ### What is this game ?
 It is a game I developed for a school project. There is a grid of hidden words and the purpose of the game is to find the different hidden words. There are two modes: one where the computer can play and another one where you can play. There is a file containing all the hidden words of the grid. The game is over when you have find all the words in this file.
 
-At the beginning of the game, you have to write "1", "2", or "3" to make the computer play, to play yourselves or to quit.
+There is no graphic interface, everything happens in the command.
+
+When you launch the game, this appears:
+> Welcome ! Write "1" to make the computer play, write "2" to play yourselves, write "3" to quit.
 
 For instance, if you choose to make the computer play, you will get:
 
 ![Alt text](crosswords.jpg?raw=true "Crosswords game")
+
+If you choose to play yourselves, the list of word you have to find is written. When you find a word, you have to press "1", "2", ... depending on where you saw it (from left to right, from right to left, ...), you have to write the number of the line and column where the word begins and the number of the word in the list.
+
+When you have find all the words in the list, you're done ! You can start again if you want.
 
 ### Code
 This code was written in C. There are four different files:
